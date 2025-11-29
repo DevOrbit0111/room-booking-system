@@ -12,4 +12,3 @@ User.deleteMany()
     console.log('Deleted users')
     process.exit()
   })
-  
