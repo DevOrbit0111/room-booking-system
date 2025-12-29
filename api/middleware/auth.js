@@ -12,7 +12,7 @@ passport.use(User.createStrategy())
 const signUp = (req, res, next) => {
 
   if (!req.body.email || !req.body.password) {
-    res.status(400).send('No username or password provided.')
+    res.status(400).send('No username or password provided. ')
   }
 
   const user = new User({
